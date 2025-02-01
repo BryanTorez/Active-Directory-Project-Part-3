@@ -261,16 +261,13 @@ We're interested in the "guest-additions-iso". So let's go ahead and type that o
 Now our package should be installed. We'll go ahead and clear out the screen and on the top you want to click on "Devices". Head over to "Shared Folders" and click on "Shared Folder Settings". Now we want to add a folder by clicking on this icon over here.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/QbW20u.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/LNt9pA.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/R5AhDe.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -278,16 +275,7 @@ Now our package should be installed. We'll go ahead and clear out the screen and
 For the folder path, we want to select the folder where we put our Splunk installer. So in my case, I download Splunk under the directory of "Active-Directory-Project". So I went ahead and selected that as my folder path. For my folder name, I'll leave it as default. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/cp0ryG.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -295,16 +283,13 @@ For the folder path, we want to select the folder where we put our Splunk instal
 As for the options, I'll select "read-only", "Auto-mount", and "Make Permanent". Then I'll hit "OK". Back onto our Splunk virtual machine, I'll go ahead and type in "sudo reboot" to reboot our virtual machine. We want to log back in using "mydfir" as the username and then the password. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/XCye8L.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/wcPah0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/o2y3S9.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -312,16 +297,7 @@ As for the options, I'll select "read-only", "Auto-mount", and "Make Permanent".
 Now, we want to add our user to the Virtual Box SF group and to do that we type in "sudo adduser" and then type in the username. So mine is "mydfir". Again, yours might be different depending on what you put. Then, I'll type in "vboxsf" and hit "Enter".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/dQu5ca.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -329,13 +305,13 @@ Now, we want to add our user to the Virtual Box SF group and to do that we type 
 Type in the password. Now, you might get the "group 'vbox SF' does not exist". There might be some additional guest installations that virtual box offers that we did not install yet. So we can type in "sudo apt-get install VirtualBox". Hit "Tab" again and we notice that there's "guest-utils".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/THu5v9.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/i7QPr9.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/hDwOFG.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -346,30 +322,30 @@ Type in the password. Now, you might get the "group 'vbox SF' does not exist". T
 Let's go ahead and type in "guest-utils" and hit "Enter". Go ahead and clear out the screen and I will reboot one more time. Log back in. Now let's try and add our user to that group. I'll type in "sudo adduser mydfir vboxsf". Now our user is added to that group.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/o8kVu2.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/m4MkLB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/sLlJFq.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/iFGcDR.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-The next step is to create a new directory called "share" and to do that I'll type in "mkdir share". Hit "Enter". Type in "ls" and we do. Now that our directory has been created called "share", we want to run the following command to mount our shared folder onto our directory called "share". To do that, we type in the command "sudo mount -t vboxsf -o uid=1000,gid=1000".
+The next step is to create a new directory called "share" and to do that I'll type in "mkdir share". Hit "Enter". Type in "ls" and now we have the directory that we created called "share". We want to run the following command to mount our shared folder onto our directory called "share". To do that, we type in the command "sudo mount -t vboxsf -o uid=1000,gid=1000".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/8IXthP.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/aB1co8.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/4CqThg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -380,50 +356,38 @@ The next step is to create a new directory called "share" and to do that I'll ty
 Then, we'll type in our shared folder name. In my case, it was "Active-Directory-Project", then I will point it to the "share" name that we just created. Now if you forget what your shared folder name is, you can go ahead and select "Devices", "Shared Folders", and "Shared Folders Settings...".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/hv87sA.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/7m2ajE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/AxrhsJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Double-click your "shared" folder and under folder name, this is the one that you want to use. In my case, it is "Active-Directory-Project" and I'll go ahead and hit "Enter". Now if you get an error for whatever reason, go ahead and try exiting the session to log out and then log back in.
+Double-click your "shared" folder and under folder name, this is the one that you want to use. In my case, it is "Active-Directory-Project" and I'll go ahead and hit "Enter". Now if you get an error for whatever reason, go ahead and try exiting the session to log out and then log back in. When you add your user into a new group, it doesn't take effect until you log out. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/qxcHWU.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/GebWnN.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-When you add your user into a new group, it doesn't take effect until you log out. I'll type in "ls- la" and we can see that our "share" is now highlighted. So let's go ahead and change directories into that "share" and I'll type in clear to clear the screen.
+I'll type in "ls- la" and we can see that our "share" is now highlighted. So let's go ahead and change directories into that "share" and I'll type in clear to clear the screen.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/4kHhsX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/ljySgQ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/GTvhdn.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -431,50 +395,64 @@ When you add your user into a new group, it doesn't take effect until you log ou
 Then type in "ls- la" and we get all of the files listed in that directory, including our Splunk installer. To install Splunk, we'll type in "sudo dpkg -i" and then point it over to our Splunk installer. Hit "Enter" and it should go out and do its thing. Now, once you see the word complete, we should be good to go to change into the directory of where Splunk is located onto our server.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/6EqrK0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/lrCLPq.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/1JMEmF.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<br />
-<br />
-This will be under "cd /opt/splunk". So I'll change into that directory and then I'll type in "ls- la". Now you'll notice that all of the user and group belongs to "splunk". Which is a good thing as it limits the permissions to that user. Let's change into the user "splunk" by typing in "sudo -u splunk bash" and now we are acting as the user "splunk".
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/ikTRh3.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Change into the directory called "cd bin" as the files listed in here, are all the binaries that Splunk can use. The one that we'll use is the "./splunk" and I'll type in "start" to run the installer. We'll get a license and terms agreements. We can go ahead and hit "q" and then type in "y" to accept.
+This will be under "cd /opt/splunk". So I'll change into that directory and then I'll type in "ls- la". Now you'll notice that all of the user and group belongs to "splunk". Which is a good thing as it limits the permissions to that user.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/p8n3GO.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/5eDboS.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/PSnuKh.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/s8S3gR.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
+<br />
+Let's change into the user "splunk" by typing in "sudo -u splunk bash" and now we are acting as the user "splunk". Change into the directory called "cd bin" as the files listed in here, are all the binaries that Splunk can use.
+<br />
+<br />
+<img src="https://snipboard.io/xriRog.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/CHkYa3.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/UE7jkR.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/HfUnhE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
+<br />
+The one that we'll use is the "./splunk" and I'll type in "start" to run the installer. We'll get a license and terms agreements. We can go ahead and hit "q" and then type in "y" to accept.
+<br />
+<br />
+<img src="https://snipboard.io/J4viAO.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/zt7I4G.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/JoH0Os.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -482,16 +460,10 @@ Change into the directory called "cd bin" as the files listed in here, are all t
 As for the administrative username, I'll type in "mydfir" and I'll enter in a password. Now that the installation is completed, let's run one more command to make sure that our Splunk starts up every time our virtual machine reboots. So I will type in "exit" to exit out of the user "splunk".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/4FZv2p.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/KtCN6h.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -499,16 +471,16 @@ As for the administrative username, I'll type in "mydfir" and I'll enter in a pa
 I'll change into the directory of "bin" and type in "sudo ./splunk enable boot-start " and I will put in the user flag as "splunk". This will make it so anytime the virtual machine reboots, Splunk will run with the user "splunk". 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/MDFmRg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/EOBJ1V.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/1GgIBi.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/kFjQbS.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -516,33 +488,21 @@ I'll change into the directory of "bin" and type in "sudo ./splunk enable boot-s
 Now that we have Splunk up and running, we want to install Splunk Universal Forwarder and Sysmon on both our Target machine and our server. I'll leave the server for you to install to get some hands-on experience. It is essentially the same process as the target machine.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 <br />
 <br />
 On our target machine, I want to change up a couple things. First, I want to change our host name to call it "target" and to do that, we can search for "PC" and select "Properties". You want to click on "Rename this PC". so I'll type in "target-PC" for my computer name and I'll hit "Next". Then we'll go ahead and restart the computer. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/OM3zfE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/vfEU6i.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/U8OFhN.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/0Ef54F.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -550,16 +510,16 @@ On our target machine, I want to change up a couple things. First, I want to cha
 Once we're back in, let's double-check our computer name by typing in "PC" again. Click on "Properties" and we see that our device name is now "target-PC". The next thing we want to do is search for "cmd" and click on "Command Prompt. We want to take a look at our IP address by doing typing "ipconfig".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/x3Gs1z.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Xda5nc.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/VUzvS4.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/qNxJ4v.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -567,50 +527,35 @@ Once we're back in, let's double-check our computer name by typing in "PC" again
 Now if we take a look the IP address is '192.168.10.7'. If you recall, our diagram '10.7' is going to be our Windows Server. So I will actually go ahead and change this into a different IP address. To do that, I'll right-click the "Network" icon.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/kmD81O.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Bd9fsO.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Click on "Open Network and Internet settings". Scroll down to "Change adapter options". I'll right-click the adapter. Click on "Properties" and double-click the "Internet Protocol version 4" or you can go ahead and just select "Properties". I'll use the following IP address and then I'll set a static IP.
+Click on "Open Network and Internet settings". Scroll down to "Change adapter options". I'll right-click the adapter. Click on "Properties" and double-click the "Internet Protocol version 4" or you can go ahead and just select "Properties".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/5Dl9oY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/jAbvWg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/F7cfMb.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/jAJ9Ci.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-So let's say '192.168.10.100'. Now my network is a '/24', so that means it's a '255.255.255.0' and the default gateway is '192.168.10.1'. For the DNS server, let's put in '8.8.8.8'. For now, I'll hit okay and close it out.
+I'll use the following IP address and then I'll set a static IP. So let's say '192.168.10.100'. Now my network is a '/24', so that means it's a '255.255.255.0' and the default gateway is '192.168.10.1'. For the DNS server, let's put in '8.8.8.8'. For now, I'll hit okay and close it out.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/0xwvBd.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
