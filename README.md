@@ -563,50 +563,30 @@ I'll use the following IP address and then I'll set a static IP. So let's say '1
 Now if we go ahead and type in 'ipconfig' again, we should have an updated IP address of '192.168.10.100'. So there won't be any IP conflict happening. We can also go ahead and open up a web browser and let's try accessing our Splunk server. So our Splunk was on '192.168.10.10' on Port '8000'. Just as an FYI, Splunk listens on Port '8000' so make sure that you specify the port otherwise you will not connect to Splunk and as you can see we can access its login page.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/CD5ZmL.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/5xPwUG.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/DNxs2P.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<br />
-<br />
-Now let's install Splunk Universal Fowarder by heading over to "splunk.com". So I'll go to "splunk.com" and then we'll log in using the account that we just created or if you have an existing account. Once you're signed in, you want to select "Products". 
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/AWtYn5.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Head over to "Free Trials and Downloads" and scroll all the way down until you see "Universal Fowarder". Click on "Get My Free Download" and you want to make sure that you select the correct operating system. Since my target machine is running on a 64-bit Windows operating system, I'll select 64-bit.
+Now let's install Splunk Universal Fowarder by heading over to "splunk.com". So I'll go to "splunk.com" and then we'll log in using the account that we just created or if you have an existing account. Once you're signed in, you want to select "Products". Head over to "Free Trials and Downloads" and scroll all the way down until you see "Universal Fowarder".  Click on "Get My Free Download" and you want to make sure that you select the correct operating system. Since my target machine is running on a 64-bit Windows operating system, I'll select 64-bit.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/EzhtB0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Aw5SRe.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/rcsxuq.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -614,16 +594,10 @@ Head over to "Free Trials and Downloads" and scroll all the way down until you s
 Once the download is completed, you can go ahead and select "Downloads" and double-click the MSI file. Click on "Check this box to accept the License Agreement". Make sure that you're selecting the first option, which is "An on-premises Splunk Enterprise instance". Hit "Next".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/IOsn8i.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/YPmo9I.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -631,16 +605,13 @@ Once the download is completed, you can go ahead and select "Downloads" and doub
 For the username, I'll just type in "admin" and I'll leave the "Generate random password" checked. Click on "Next". For the deployment server, we don't have one so we can go ahead and skip that. As for the receiving indexer, this is going to be our Splunk server.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/4d1xu0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/aoKdIV.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/2OMNmZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -648,16 +619,13 @@ For the username, I'll just type in "admin" and I'll leave the "Generate random 
 So the IP of the Splunk server is '192.168.10.10'. The default port for Splunk is '9997' when it's receiving events. So I'll leave that as '9997'. Select "Next" and "Install". We want to start downloading Sysmon, so I'll go ahead and just search up "Sysmon" and we'll select "Sysmon - Sysinternals". 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/qyBxDe.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/1Gz0Ki.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/RZ3XiV.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -665,50 +633,47 @@ So the IP of the Splunk server is '192.168.10.10'. The default port for Splunk i
 Scroll down and click on "Download Sysmon" and I'll go ahead and let that download. The Sysmon configuration, that we'll be using is by Olaf. So search up "Sysmon olaf config" and we'll click on the GitHub. Scroll down, and we want to select "sysmonconfig.xml".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/brJuS8.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/xsQ54R.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/7NpurB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Click on "Raw" on the right-hand side. Then right-click "Save as" and I'll save it under my downloads directory. Now let's head over to our downloads directory and we should see Sysmon downloaded. So we'll right-click it and click on "Extract All". Click "Extract". What I'll do is click on the file explorer bar and then right-click "Copy".
+Click on "Raw" on the right-hand side. Then right-click "Save as" and I'll save it under my downloads directory. Now let's head over to our downloads directory and we should see Sysmon downloaded. So we'll right-click it and click on "Extract All".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/O415i2.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/xAnvDa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/eAui4q.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/MUJgbQ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Now I'll open up Powershell with administrative privileges. So search up "Powershell" and select "Run as administrator". Select "yes". Now the reason why I copied the file path is so I can just go ahead and type in "cd" to change the directory and paste the file path.
+Click "Extract". What I'll do is click on the file explorer bar and then right-click "Copy". Now I'll open up Powershell with administrative privileges. So search up "Powershell" and select "Run as administrator". Now the reason why I copied the file path is so I can just go ahead and type in "cd" to change the directory and paste the file path.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/RZd7zw.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/hxC6SR.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/3xEoMk.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Qifol2.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -716,50 +681,26 @@ Now I'll open up Powershell with administrative privileges. So search up "Powers
 Now that I'm in that directory, we can type in "sys" and hit "Tab". We'll use "-i" flag to indicate that I want to specify a configuration file. Now, if you take a look at my directory, it is currently set as "C:\Users\bob\Downloads\Sysmon". My Sysmon config is located under my downloads directory.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/FTJcj3.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-So that means I need to go back a directory and to do that we can specify two dots to indicate that I want to go back one directory, followed by a backslash. Now, I can search Syssmon and hit "Tab". Keep hitting "Tab" until you get your Sysmon "config.xml". Now, go ahead and hit "Enter" and this will install Sysmon for you.
+So that means I need to go back a directory and to do that we can specify two dots to indicate that I want to go back one directory, followed by a backslash. Now, I can type "sysmon". Keep hitting "Tab" until you get your Sysmon "config.xml". Now, go ahead and hit "Enter" and this will install Sysmon for you once you've hit "Agree".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/wozy4i.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/wozy4i.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Once you hit "Agree". Now, that it says "Sysmon64" started and we see an MSI orange icon indicating that Universal forwarder was successfully installed, close it out by clicking on "Finish". I'll close out Powershell and now here is the most important part. We need to instruct our Splunk forwarder on what we want to send over to our Splunk server.
+Now, that it says "Sysmon64" started and we see an MSI orange icon indicating that Universal forwarder was successfully installed, close it out by clicking on "Finish". I'll close out Powershell and now here is the most important part. We need to instruct our Splunk forwarder on what we want to send over to our Splunk server.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/rPm5np.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -767,118 +708,65 @@ Once you hit "Agree". Now, that it says "Sysmon64" started and we see an MSI ora
 To do this, we must configure a file called "inputs.conf". This file is located under the "C:drive" program files. Click on "SplunkUniversalFowarder". Next, click on "etc". Then, click on "system". Finally, click on "default" and here's the file, "inputs.conf". 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/9q4Qgi.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/rzylHe.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/vmyobJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/h3s6fE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Now, we can go ahead and right-click copy but instead, I'm going to create a new file under the local directory because you do not want to edit the "inputs.conf" file under the default directory. That is there just in case you mess anything up, you can replace that with the default config. 
+Now, we can go ahead and right-click copy but instead, I'm going to create a new file under the "local" directory because you do not want to edit the "inputs.conf" file under the default directory. That is there just in case you mess anything up, you can replace that with the default config. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/CEMZAf.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/0BFgLp.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+So just to make sure that we're all on the same page because this is an important step, "do not edit the inputs.conf" file under the default directory. Instead, we will create a new file under the local directory and we'll name it as "inputs.conf".
 <br />
 <br />
+<img src="https://snipboard.io/0BFgLp.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-So just to make sure that we're all on the same page because this is an important step, "do not edit the inputs.conf" file under the default directory. Instead, we will create a new file under the local directory and we'll name it as "inputs. conf".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now, this directory requires administrative privileges. As you can see, I cannot create anything other than a folder. So what I'll do is search up "notepad" and I'll run this as administrator. Now I've copied the contents in my "inputs.conf" file that I'll leave in the description down below where you can go and copy all of that content and paste it into your virtual machine.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/V9bqkp.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/UlYSkT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/9p2qOa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Now, this directory requires administrative privileges. As you can see, I cannot create anything other than a folder. So what I'll do is search up "notepad" and I'll run this as administrator. Click on "yes". Now I've copied the contents in my "inputs.conf" file that I'll leave in the description down below where you can go and copy all of that content and paste it into your virtual machine.
+This is instructing our Splunk Forwarder to push events related to application, security, system, and Sysmon over to our Splunk server. Take note of the index that we're using. In my configuration file I have the index pointing to an index name called "endpoint". This is important to know because whatever events fall under these categories, will be sent over to Splunk and placed under the index endpoint. If our Splunk server does not have an index-named endpoint, it will not receive any of these events.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now if you want to learn more about this, I recommend you read Splunk's documentation. Again, I'll leave a link down below for you to go ahead and just copy all of this to make sure it works. Now I will save this notepad file under "Program Files", "Splunk Universal Forwarder", "etc", scroll down to "system" and put it into the local directory.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/4my0YT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<br />
-<br />
-This is instructing our Splunk Forwarder to push events related to application, security, system, and Sysmon over to our Splunk server. Take note of the index that we're using, in my configuration file I have the index pointing to an index name called "endpoint".
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<br />
-<br />
-This is important to know because whatever events fall under these categories, will be sent over to Splunk and placed under the index endpoint. If our Splunk server does not have an index-named endpoint, it will not receive any of these events.
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<br />
-<br />
-Now if you want to learn more about this, I recommend you read Splunk's documentation. Again, I'll leave a link down below for you to go ahead and just copy all of this to make sure it works. Now I will save this notepad file under program files, Splunk Universal Forwarder, etc, scroll down to system and put it into the local directory.
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/0YlEWA.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -886,16 +774,13 @@ Now if you want to learn more about this, I recommend you read Splunk's document
 I will call this "inputs" and change the "Save as type" to "All Files" and I'll put an extension as ".conf", short for configuration. Click on "Save". Exit this out and now we should see "inputs.conf" under our local directory. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/nebyBN.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/mnGugH.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/mn1aZC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -903,16 +788,13 @@ I will call this "inputs" and change the "Save as type" to "All Files" and I'll 
 Do note that anytime you update your "inputs.conf" file, you must restart Splunk's Universal Forwarder service. In order to do that, we'll go ahead and just search up "Services". Then, run as administrator. Type in "s" to look for Splunk's Forwarder service. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/4LbHqD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/rRI1GC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/j4bRLB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -920,16 +802,10 @@ Do note that anytime you update your "inputs.conf" file, you must restart Splunk
 Now, one thing to keep in mind is if you scroll to the right, under the column of "Log On As". If you see "NT SERVICE", we'll go ahead and just double click it and click on "Log On". If you notice that it's using this account "NT SERVICE\SplunkFowarder", it might not be able to collect logs due to some of the permissions.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/ze1Bs9.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/AiC8LE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -937,16 +813,10 @@ Now, one thing to keep in mind is if you scroll to the right, under the column o
 So instead, you want to select "Local System account" and hit "Apply". It'll say "The new log-on name will not take effect until you stop and restart the service." Which is what we'll do because we updated our "inputs.conf" file. I can't stress this enough, if you update your "inputs.conf" file, you must restart your Splunk Fowarder service otherwise it won't take effect.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/caR48C.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/RLmu4a.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -954,16 +824,13 @@ So instead, you want to select "Local System account" and hit "Apply". It'll say
 Click on "OK" and now if you look at our column "Log On As", it is now "Local System". That is exactly what we want and just to verify, if we scroll down just a little bit, we do see "Sysmon64" and it is running. Let's go ahead and right-click "SplunkFowarder" and you can click on "Restart" or you can click on restart right on the top left.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/1wFVHE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Hb6Mg0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/1h3RQu.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -971,16 +838,10 @@ Click on "OK" and now if you look at our column "Log On As", it is now "Local Sy
 Now, you might get hit with a warning saying that "Windows cannot stop the SplunkFowarder service on the Local Computer." That's okay, just go ahead and hit "Ok" and start the service. Now, we have our Sysmon and Splunk Universal forwarder installed, along with our updated "inputs.conf" file.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/S8xoKm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/i2HCtg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -988,13 +849,13 @@ Now, you might get hit with a warning saying that "Windows cannot stop the Splun
 Now, we can finalize our Splunk server configuration. Let's head over to our Splunk web portal and log in using the credentials that we created during the Splunk install on our server. So my username was "mydfir". Then, my secure password. When we're presented with this screen, we want to select "Settings" at the top.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/DQK1VW.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/lynpQO.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/etqVFa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -1005,7 +866,7 @@ Now, we can finalize our Splunk server configuration. Let's head over to our Spl
 Then, head over to "Indexes". Now, if you recall the "inputs.conf" file, all of the events are being sent over to an index called "endpoint". This is where we create that index. So if we scroll down, if you look to the left, these are all of the indexes that Splunk has. However, as you can see, we do not see an index called "endpoint". So let's go ahead and create that. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/fHC7lG.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
