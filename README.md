@@ -858,9 +858,6 @@ Now, we can finalize our Splunk server configuration. Let's head over to our Spl
 <img src="https://snipboard.io/etqVFa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 <br />
 <br />
 Then, head over to "Indexes". Now, if you recall the "inputs.conf" file, all of the events are being sent over to an index called "endpoint". This is where we create that index. So if we scroll down, if you look to the left, these are all of the indexes that Splunk has. However, as you can see, we do not see an index called "endpoint". So let's go ahead and create that. 
@@ -869,13 +866,7 @@ Then, head over to "Indexes". Now, if you recall the "inputs.conf" file, all of 
 <img src="https://snipboard.io/fHC7lG.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/eVH1jn.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -883,16 +874,13 @@ Then, head over to "Indexes". Now, if you recall the "inputs.conf" file, all of 
 Scroll up and click on "New Index". As for the name, I'll type in "endpoint" and click on "Save". Now, a new index named "endpoint" should be created. To double-check, just scroll down and we should see the "endpoint" index. Perfect.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/JXLjBf.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/wh9EtC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/O0pSDI.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -900,16 +888,13 @@ Scroll up and click on "New Index". As for the name, I'll type in "endpoint" and
 Next, we need to make sure that we enable our Splunk server to receive the data. To do that, we need to click on "Settings". Click on "Forwarding and receiving". Under the receive data, we want to click on "Configure receiving". Click on "New receiving Port".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/32z9oT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/ZDAmaY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/owr6Ui.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -917,33 +902,24 @@ Next, we need to make sure that we enable our Splunk server to receive the data.
 If you recall, during our setup we mentioned the default port is '9997'. So let's type in '9997' and hit "Save". If we have everything set up correctly, we should start seeing data coming in from our target machine. Click on "Apps" on the top left corner and select "Search and Reporting".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/t3U48W.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Uun3dS.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-We'll go ahead and skip this box here. Skip tour and in the search bar we'll type in "index=endpoint" and take a look at our time frame. It has last 24 hours, which is perfectly fine. Now, I'll click on the search button we do see some events.
+In the search bar, we'll type in "index=endpoint" and take a look at our time frame. It has "Last 24 hours", which is perfectly fine. Now, I'll click on the search button and we'll see some events.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/aeKzlX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/P8hbfW.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/eCyBfT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -951,33 +927,15 @@ We'll go ahead and skip this box here. Skip tour and in the search bar we'll typ
 If we scroll down just a little bit, we see one host and the value is "TARGET-PC". We also see some sources, Source types, our "inputs.conf" file. Aswell as the specifically mentioned "Security", "Application", "System", and the Sysmon data.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/EiCm79.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/vjc6A2.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-You have successfully installed and configured Sysmon and Splunk. If you do want to learn more about Splunk, I do recommend you take a look at their documentation as they are quite detailed. Now it is your turn to set up the server to have both Sysmon and Splunk installed and configured. Make sure that you're using the same "inputs.conf" file as the target machine, and you can grab a couple down below. Remember to restart the Splunk service after you have your "inputs.conf" updated. 
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+You have successfully installed and configured Sysmon and Splunk. If you do want to learn more about Splunk, I do recommend you take a look at their documentation as they are quite detailed. Now it is your turn to set up the server to have both Sysmon and Splunk installed and configured. Make sure that you're using the same "inputs.conf" file as the target machine, and you can grab a copy down below. Remember to restart the Splunk service after you have your "inputs.conf" updated. 
 <br />
 <br />
 <br />
@@ -985,20 +943,23 @@ You have successfully installed and configured Sysmon and Splunk. If you do want
 On the server, let's change the computer name to "ADDC01". To do that, you want to search "PC" and right click click on "Properties". Then, you want to select "Rename this PC". We want to type in "ADDC01". Click on "Next" and restart. Once that is completed, you can then move on to installing Sysmon and Splunk.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/N5Ki9y.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/NCwbie.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/BT1vJH.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-If you have everything set up correctly in Splunk, you should see two hosts. One for the "TARGET-PC" and the other for "ADDC01". Now, when you do get this window, just click on "Continue". 
-
+If you have everything set up correctly in Splunk, you should see two hosts. One for the "TARGET-PC" and the other for "ADDC01".
+<br />
+<br />
+<img src="https://snipboard.io/WKh2Vi.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
+<br />
 I hope that everything went smoothly for you and you have learned some new things about Splunk. If you did come across something that you aren't too sure of or want to learn more about, do try and research it. Now, we went over a lot of material and configuration so I am sure that there will be some errors along the way, but you and I will get through it together. In part four, we will begin to install and configure your active directory. That will be it for the video. Remember to stay curious and do things differently.
