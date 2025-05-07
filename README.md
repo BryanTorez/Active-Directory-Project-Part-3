@@ -1,4 +1,4 @@
-<h1>SOC Automation (Home Lab) - Part 1</h1>
+<h1>Active Directory Project - Part 3</h1>
 
 <p align="center">
 <img src="https://snipboard.io/yGjrI1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
